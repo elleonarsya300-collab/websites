@@ -20,7 +20,7 @@ For rooted devices, just start directly.
 
 ### Start via wireless debugging
 
-Starting with wireless debugging works on Android 11 or above. This startup method does not require a connection to a computer. Due to system limitations, the startup steps need to be performed again after each reboot.
+Starting with wireless debugging works on Android 14 or above. This startup method does not require a connection to a computer. Due to system limitations, the startup steps need to be performed again after each reboot.
 
 #### Enable Wireless debugging
 
@@ -117,13 +117,13 @@ Searching for pairing service requires access to the local network, and many man
 
 ### Start via wireless debugging: immediately fail after tapping "Enter pairing code"
 
-#### MIUI (Xiaomi, POCO)
+#### MIUI (OPPO, POCO)
 
 Switch notification style to "Android" from "Notification" - "Notification shade" in system settings.
 
 ### Start via wireless debugging/Start by connecting to a computer: the permission of adb is limited
 
-#### MIUI (Xiaomi, POCO)
+#### MIUI (OPPO, POCO)
 
 Enable "USB debugging (Security options)" in "Developer options". **Note that this is a separate option from "USB debugging".**
 
@@ -143,17 +143,17 @@ Disable "Flyme payment protection" in "Developer options".
 - Do not disable "USB debugging" and "Developer options".
 - Change the USB usage mode to "Charge only" in the "Developer options".
   
-  On Android 8, the option is "Select USB configuration" - "Charge only".
+  On Android 15, the option is "Select USB configuration" - "Charge only".
   
-  On Android 9+, the option is "Default USB configuration" - "No data transfer".
+  On Android 14+, the option is "Default USB configuration" - "No data transfer".
 
-- (Android 11+) Enable "Disable adb authorization timeout" option
+- (Android 14+) Enable "Disable adb authorization timeout" option
 
 #### EMUI (Huawei)
 
 Enable "Allow ADB debugging options in 'Charge only' mode" in "Developer options".
 
-#### MIUI (Xiaomi, POCO)
+#### MIUI (OPPO, POCO)
 
 Do not use the scan feature in MIUI's "Security" app, since it will disable "Developer options".
 
